@@ -1,0 +1,194 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Andika);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+.logo {
+	float: left;
+	margin-right: 20px;
+	width:110px;
+	height: 90px;
+}
+
+:focus {
+        outline: #F00 dotted 2px;
+        background-color: #FFF700;
+}
+
+body {
+    background-image: url(../img/brick.jpg);
+    font-family: 'Andika', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contact-info {
+	font-family: 'Andika', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-box {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #FFF;
+	box-shadow: 2px 2px 6px #555;
+	padding:20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+nav {
+	font-family: 'Andika', sans-serif;
+	font-size: 18px;
+}
+
+nav ul {
+	margin-top: 25px;
+	background-color: #695F55;
+	border-radius: 5px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+
+ 	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration:none;
+}
+
+nav a:hover {
+	background-color: #7D7166;
+}
+.footer {
+	font-style: italic;
+	margin-top:20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 80%;
+	border-top: gray;
+	border-top-style: solid;
+}
+
+.motto{
+	font-family: 'Oswald', sans-serif;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.picture-area {
+	width: 80%;
+	margin-left: 10%;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.picture {
+	height: 300px;
+/*	width:80%;*/
+	display:block;
+	position: absolute;
+	opacity: .8;
+}
+@media screen and (max-width: 767px) {
+    .picture {
+        display: none;
+
+    }
+
+    .overlay {
+    	display: none;
+    	opacity: 0;
+    }
+
+    .picture-area {
+    	display: none;
+    }
+}
+
+
+.picture-text {
+	display:block;
+	position: absolute;
+	width:500px;
+	height: 150px;
+	top: 450px;
+	left: 20%;
+	font-family: 'Oswald', sans-serif;
+	color: #352438;
+	font-size: 50px;
+}
+
+.header {
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #352438;
+}
+
+.content {
+	padding: 20px;
+	margin: 10px;
+
+}
+
+dl {
+	padding:20px;
+	margin: 10px;
+	font-family: 'Andika', sans-serif;
+	font-color: #6A2C51;
+}
+
+dt {
+	margin-left: 15px;
+	padding:10px;
+	font-family: 'Andika', sans-serif;
+	font-color: #6A2C51;
+}
+
+dd {
+	margin-left: 35px;
+	padding: 10px;
+	font-family: 'Andika', sans-serif;
+	font-color: #6A2C51;
+}
+
+.text {
+	font-family: 'Andika', sans-serif;
+	font-size: 30px;
+	color: #6A2C51;
+}
+
+.text-about {
+	font-family: 'Andika', sans-serif;
+	font-size: 18px;
+	color: #6A2C51;
+	padding: 10px;
+}
+
+h1 {
+	padding: 10px;
+	font-family: 'Andika', sans-serif;
+	font-size: 25px;
+	color: #6A2C51;
+}
+
+.info {
+	font-style: italic;
+}
+
+.title {
+	font-weight: bold;
+}
