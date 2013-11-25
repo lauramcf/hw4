@@ -34,14 +34,74 @@
 				<!-- <div class = "overlay"></div> -->
 				<div class = "picture-text"><p>Order</p></div>
 			</div>
-			<div class = content>
+			<div class ="content">
 				<p name="pizzaSelect">Pizzas:</p>
-				<p name="drinks">Drinks:</p>
-				<p name="desserts">Desserts:</p>
+					<section class="pizzaTemplate">
+						<h4 class="name"></h4>
+						<h4 class="description"></h4>
+						<h4 class="prices"></h4>
+						<h4 class="price"></h4>
+					</section>
+			</div>
 
 		</div>
 		<footer class = footer> Call us for delivery: 206.555.1212 <p class = copyright> &copy; 2013 Dawg Pizza</p></footer>
 	</div>
+
+	            <form method="POST" action="https://courses.washington.edu/info343/signup/" class="form-horizontal signup-form" role="form">
+
+
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="first-name">Name</label>
+                    <div class="col-lg-5">
+                        <input type="text" class="form-control" name="first-name" id="first-name" placeholder="first name" required>
+                    </div>
+                    <div class="col-lg-5">
+                        <input type="text" class="form-control" name="last-name" id="last-name" placeholder="last name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="addr-1">Address</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" name="addr-1" id="addr-1" placeholder="street address">
+                        <input type="text" class="form-control" name="addr-2">
+                        <input type="text" class="form-control" name="addr-3">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="city">Zip</label>
+                    <div class="col-lg-10">
+                        <div class="row">
+                            
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" name="zip" placeholder="zip code" id ="zip">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="phone">Phone</label>
+                    <div class="col-lg-10">
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="primary phone number">
+                    </div>
+                </div>
+
+                
+                  
+
+
+                <div class="row">
+                    <div class="col-lg-12 text-right">
+                        <button type="button" class="btn btn-default cancel-signup">No Thanks!</button>
+                        <button type="submit" class="btn btn-primary">Sign Me Up!</button>
+                    </div>
+                </div>
+
+            </form>
 	<!-- hot link to minified jQuery library, version 2.0.3 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <!-- hot link to minified Bootstrap library, version 3.0.0 -->
