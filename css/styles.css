@@ -144,6 +144,17 @@ nav a:hover {
 
 }
 
+.items {
+	padding: 20px;
+	margin: 10px;
+	width: 60%;
+}
+
+.form {
+	width: 40%;
+	top: 0px;
+}
+
 dl {
 	padding:20px;
 	margin: 10px;
