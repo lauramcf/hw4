@@ -71,6 +71,11 @@ function renderCart(cart, container) {
     //TODO: code to render sub-total price of the cart
     //the tax amount (see instructions), 
     //and the grand total
+    var totalPrice = 0;
+    for (idx = 0; idx < this.items.length; ++idx) {
+            totalPrice += this.items[idx].price;
+    }
+    totalPrice.toFixed(2);
 
 } //renderCart()
 
